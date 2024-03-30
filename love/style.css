@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+   background-color: aqua;
+}
+.love{
+   text-align: center;
+  margin-top: 45px;
+  color: rgb(238, 17, 105);
+}
+.decision{
+    text-align: center; 
+
+}
+#Yes, #No{
+    height: 33px;
+    width: 53px;
+    margin: 33px;
+    border-radius: 5px;
+    background-color: rgb(49, 185, 28);
+    border: none;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+#No{
+    background-color: rgb(255, 6, 6);
+    transition: top 0.5, left 0.5s;
+}
+ #No:hover{
+    cursor: pointer;
+    scale: 1.1;
+  opacity: 0.9;
+}
+#Yes:hover{
+    cursor: pointer;
+    scale: 1.1;
+    opacity: 0.9;
+}
